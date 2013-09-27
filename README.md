@@ -1,4 +1,4 @@
 # Sourcemap examples
 
-  npm install
-  grunt
+    npm install
+    grunt
