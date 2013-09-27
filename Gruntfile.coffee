@@ -3,19 +3,29 @@ module.exports = (grunt) ->
   grunt.initConfig
 
     coffee:
-      app:
-        options:
-          sourceMap: true
+      options:
+        sourceMap: true
+      app1:
         files:
-          'app.js': 'app.coffee'
+          'app1.js': 'app1.coffee'
+      app2:
+        files:
+          'app2/app2.js': 'app2/app2.coffee'
 
     uglify:
-      options:
-        sourceMap: 'app.map'
-        sourceMapIn: 'app.js.map'
-      app:
+      app1:
+        options:
+          sourceMap: 'app1.map'
+          sourceMapIn: 'app1.js.map'
         files:
-          'app.min.js': 'app.js'
+          'app1.min.js': 'app1.js'
+      app2:
+        options:
+          sourceMap: 'app2/app2.map'
+          sourceMapIn: 'app2/app2.js.map'
+          sourceMappingURL: '/app2/app2.js.map'
+        files:
+          'app2/app2.min.js': 'app2/app2.js'
 
 
   grunt.registerTask 'default', ['coffee', 'uglify']

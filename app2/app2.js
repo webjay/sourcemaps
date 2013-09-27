@@ -15,5 +15,5 @@
 }).call(this);
 
 /*
-//@ sourceMappingURL=app.js.map
+//@ sourceMappingURL=app2.js.map
 */

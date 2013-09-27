@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "file": "app.js",
+  "file": "app1.js",
   "sourceRoot": "",
   "sources": [
-    "app.coffee"
+    "app1.coffee"
   ],
   "names": [],
   "mappings": "AAAA;CAAA,IAAA,CAAA;;CAAA,CAAM;CAEL;;CAAA,EAAO,EAAP,IAAO;;CAAP;;CAFD;;CAAA,CAIA,CAAA,IAAO;CAJP"
