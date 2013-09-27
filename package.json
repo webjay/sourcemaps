@@ -1,0 +1,18 @@
+{
+  "name": "sourcemaps",
+  "version": "0.0.0",
+  "description": "Sourcemap examples",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webjay/sourcemaps.git"
+  },
+  "author": "Jacob Friis Saxberg",
+  "bugs": {
+    "url": "https://github.com/webjay/sourcemaps/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.4"
+  }
+}
