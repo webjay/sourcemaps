@@ -23,7 +23,7 @@ module.exports = (grunt) ->
         options:
           sourceMap: 'app2/app2.map'
           sourceMapIn: 'app2/app2.js.map'
-          sourceMappingURL: '../app2/app2.js.map'
+          sourceMappingURL: 'app2.js.map'
         files:
           'app2/app2.min.js': 'app2/app2.js'
 
